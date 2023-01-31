@@ -2817,6 +2817,12 @@ input, select, textarea {
 		list-style: none;
 	}
 
+	
+span.toppingsUnderline {
+text-decoration:  underline;
+}
+
+
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
@@ -3794,5 +3800,15 @@ input, select, textarea {
 					margin-top: 0px;
 					margin-bottom: -10px;}
 
-.features li { flex-direction: column;
+.features li { flex-direction: column; flex-wrap: wrap;
+}
+section h3  { text-align: center;
+}
+
+#setups ul li img { max-width: 95%; min-width: 94%;}
+#setups ul  { 
+display: flex; /*justify-content:center*/
+
+
+
 }
